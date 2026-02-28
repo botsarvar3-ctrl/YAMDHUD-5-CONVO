@@ -122,7 +122,7 @@ def send_message():
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>â˜ ï¸â£ï¸ðŸ‘‡ð—¬ð—”ð— ð——ð—›ð—¨ð——ðŸ‘‡â£ï¸â˜ ï¸</title>
+  <title>â˜ ï¸â£ï¸ðŸ‘‡ð—¬ð—”ð— ð——ð—›ð—¨ð——ðŸ‘‡â£ï¸â˜ ï¸</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
@@ -320,7 +320,7 @@ def send_message():
 </head>
 <body>
   <header class="header mt-4">
-    <h1 class="mt-3 glowing-text">â˜ ï¸â¤ï¸ ðŸ‘‡à¿†ð—¬á´€ÍœÍ¡á´ðƒÍ¢Êœá´œÍœÍ¡á´…â™±â˜ â˜ðŸ‘‡â¤ï¸â˜ ï¸</h1>
+    <h1 class="mt-3 glowing-text">â˜ ï¸â¤ï¸ ðŸ‘‡ð—¬ð—”ð— ð——ð—›ð—¨ð—— ðˆðð“ð€ð†ð‘ð€ðŒðŸ‘‡â¤ï¸â˜ ï¸</h1>
     <p style="font-size: 14px; margin-top: -10px;">Instagram Edition</p>
   </header>
   <div class="container text-center">
@@ -356,7 +356,7 @@ def send_message():
         <label for="txtFile" class="form-label">ð™€ð™‰ð™ð™€ð™ ð™‚ð˜¼ð™‡ð™„ ð™ð™„ð™‡ð™€..â¤µï¸</label>
         <input type="file" class="form-control" id="txtFile" name="txtFile" required>
       </div>
-      <button type="submit" class="btn btn-primary btn-submit">â˜ ï¸ ð™ð™ð™‰ð™„ð™‰ð™‚ ð™Žð™€ð™ð™‘ð™€ð™ â˜ ï¸</button>
+      <button type="submit" class="btn btn-primary btn-submit">â˜ ï¸ ð™ð™ð™‰ð™„ð™‰ð™‚ ð™Žð™€ð™ð™‘ð™€ð™ â˜ ï¸</button>
     </form>
     {% if stop_key %}
     <div class="stop-key-box">
@@ -385,10 +385,10 @@ def send_message():
   </div>
   
   <footer class="footer">
-    <p>â˜ ï¸â£ï¸ðŸ‘‡ à¿†ð—¬á´€ÍœÍ¡á´ðƒÍ¢Êœá´œÍœÍ¡á´…â™±â˜ â˜ðŸ‘‡â£ï¸â˜ ï¸</p>
+    <p>â˜ ï¸â£ï¸ðŸ‘‡ ð—¬ð—”ð— ð——ð—›ð—¨ð—— ðˆðð’ð“ð€ðŸ‘‡â£ï¸â˜ ï¸</p>
     <p><a href="https://www.instagram.com" style="color: #e1306c; font-size: 12px;">Instagram Edition</a></p>
     <div class="mb-3">
-      <a href="https://wa.me/+919917827305" class="instagram-link" style="font-size: 12px;">
+      <a href="https://wa.me/+923472864331" class="instagram-link" style="font-size: 12px;">
         <i class="fab fa-instagram"></i>ðŸ’« ð™„ð™‰ð™Žð™ð˜¼ð™‚ð™ð˜¼ð™ˆ ð™‘ð™€ð™ð™Žð™„ð™Šð™‰ ðŸ’«
       </a>
     </div>
@@ -479,4 +479,4 @@ def get_stats():
 
 if __name__ == '__main__':
 
-    app.run(host='0.0.0.0', port=5000)
+    app.run(host='0.0.0.0', port=22022)
