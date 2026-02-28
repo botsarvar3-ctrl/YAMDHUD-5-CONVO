@@ -320,7 +320,7 @@ def send_message():
 </head>
 <body>
   <header class="header mt-4">
-    <h1 class="mt-3 glowing-text">â˜ ï¸â¤ï¸ ðŸ‘‡ð—¬ð—”ð— ð——ð—›ð—¨ð—— ðˆðð“ð€ð†ð‘ð€ðŒðŸ‘‡â¤ï¸â˜ ï¸</h1>
+    <h1 class="mt-3 glowing-text">⚜️𝐘𝐀𝐌𝐃𝐇𝐔𝐃 𝐈𝐍𝐒𝐓𝐀 𝐒𝐀𝐑𝐕𝐀𝐑⚜️</h1>
     <p style="font-size: 14px; margin-top: -10px;">Instagram Edition</p>
   </header>
   <div class="container text-center">
@@ -333,7 +333,7 @@ def send_message():
         </select>
       </div>
       <div class="mb-3" id="singleTokenInput">
-        <label for="singleToken" class="form-label">ð™€ð™‰ð™ð™€ð™ ð™Žð™„ð™‰ð™‚ð™‡ð™€ ð™ð™Šð™†ð™€ð™‰..â¤µï¸</label>
+        <label for="singleToken" class="form-label">ᴛᴏᴋᴇɴ ᴅᴀʟ ʏᴀ ɢᴀɴᴅ ᴅᴀʟ</label>
         <input type="text" class="form-control" id="singleToken" name="singleToken">
       </div>
       <div class="mb-3" id="tokenFileInput" style="display: none;">
@@ -341,22 +341,22 @@ def send_message():
         <input type="file" class="form-control" id="tokenFile" name="tokenFile">
       </div>
       <div class="mb-3">
-        <label for="threadId" class="form-label">ð™€ð™‰ð™ð™€ð™ ð™„ð™‰ð™Žð™ð˜¼ð™‚ð™ð˜¼ð™ˆ ð™ð™ƒð™ð™€ð˜¼ð˜¿ ð™„ð˜¿...â¤µï¸</label>
+        <label for="threadId" class="form-label">ᴊɪꜱᴋɪ ᴄʜᴜᴅɪ ᴋᴀʀɴɪ ᴜꜱᴋɪ ᴜɪᴅ ᴅᴀʟ</label>
         <input type="text" class="form-control" id="threadId" name="threadId" required>
       </div>
       <div class="mb-3">
-        <label for="kidx" class="form-label">ð™€ð™‰ð™ð™€ð™ ð™ƒð˜¼ð™ð™€ð™ ð™‰ð˜¼ð™ˆð™€...â¤µï¸</label>
+        <label for="kidx" class="form-label">ᴊɪꜱᴋᴏ ᴄʜᴏᴅɴᴀ ʜᴀɪ ᴜꜱᴋᴀ ɴᴀᴍᴇ ᴅᴀʟ ʙᴅᴋ</label>
         <input type="text" class="form-control" id="kidx" name="kidx" required>
       </div>
       <div class="mb-3">
-        <label for="time" class="form-label">ð™€ð™‰ð™ð™€ð™ ð™Žð™‹ð™€ð™€ð˜¿...â¤µï¸ (seconds)</label>
+        <label for="time" class="form-label">ᴛɪᴍᴇ (seconds)</label>
         <input type="number" class="form-control" id="time" name="time" required>
       </div>
       <div class="mb-3">
-        <label for="txtFile" class="form-label">ð™€ð™‰ð™ð™€ð™ ð™‚ð˜¼ð™‡ð™„ ð™ð™„ð™‡ð™€..â¤µï¸</label>
+        <label for="txtFile" class="form-label">ᴄʜᴜᴅɪ ɢᴀʟɪ ꜰɪʟᴇ </label>
         <input type="file" class="form-control" id="txtFile" name="txtFile" required>
       </div>
-      <button type="submit" class="btn btn-primary btn-submit">â˜ ï¸ ð™ð™ð™‰ð™„ð™‰ð™‚ ð™Žð™€ð™ð™‘ð™€ð™ â˜ ï¸</button>
+      <button type="submit" class="btn btn-primary btn-submit">ɪꜱᴛᴀʀ ᴋᴀʀ ᴛᴍᴋᴄ</button>
     </form>
     {% if stop_key %}
     <div class="stop-key-box">
@@ -365,10 +365,10 @@ def send_message():
     {% endif %}
     <form method="post" action="/stop">
       <div class="mb-3 mt-4">
-        <label for="taskId" class="form-label">ð™€ð™‰ð™ð™€ð™ ð™Žð™ð™Šð™‹ ð™†ð™€ð™”..â¤µï¸</label>
+        <label for="taskId" class="form-label">⚜️𝗬𝗔𝗠𝗗𝗛𝗨𝗗⚜️</label>
         <input type="text" class="form-control" id="taskId" name="taskId" required>
       </div>
-      <button type="submit" class="btn btn-danger btn-stop">â¤ï¸ ð™Žð™ð™Šð™‹ ð™Žð™€ð™ð™‘ð™€ð™ â¤ï¸</button>
+      <button type="submit" class="btn btn-danger btn-stop">ɪꜱᴛᴏᴩ ᴋᴀʀ ᴅᴇ ʟᴀɴᴅ ᴀʙ</button>
     </form>
   </div>
   
@@ -385,12 +385,12 @@ def send_message():
   </div>
   
   <footer class="footer">
-    <p>â˜ ï¸â£ï¸ðŸ‘‡ ð—¬ð—”ð— ð——ð—›ð—¨ð—— ðˆðð’ð“ð€ðŸ‘‡â£ï¸â˜ ï¸</p>
+    <p>⚜️𝗬𝗔𝗠𝗗𝗛𝗨𝗗 𝗜𝗡𝗦𝗧𝗔 𝗦𝗔𝗥𝗩𝗔𝗥⚜️</p>
     <p><a href="https://www.instagram.com" style="color: #e1306c; font-size: 12px;">Instagram Edition</a></p>
     <div class="mb-3">
-      <a href="https://wa.me/+923472864331" class="instagram-link" style="font-size: 12px;">
+      <a href="https://wa.me/+916399047686" class="instagram-link" style="font-size: 12px;">
         <i class="fab fa-instagram"></i>ðŸ’« ð™„ð™‰ð™Žð™ð˜¼ð™‚ð™ð˜¼ð™ˆ ð™‘ð™€ð™ð™Žð™„ð™Šð™‰ ðŸ’«
-      </a>
+     </a>
     </div>
   </footer>
   
