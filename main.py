@@ -374,7 +374,7 @@ def send_message():
   
   <div class="mini-monitor" id="miniMonitor">
     <div class="monitor-header">
-      <h5 class="glowing-text" style="margin: 0; font-size: 14px;">ðŸ“Š LIVE STATS</h5>
+      <h5 class="glowing-text" style="margin: 0; font-size: 14px;">𝗟𝗜𝗩𝗘 𝗗𝗛𝗔𝗞 𝗧𝗠𝗞𝗖</h5>
       <button class="refresh-btn" onclick="updateMiniMonitoring()">
         <i class="fas fa-sync-alt"></i>
       </button>
@@ -389,7 +389,7 @@ def send_message():
     <p><a href="https://www.instagram.com" style="color: #e1306c; font-size: 12px;">Instagram Edition</a></p>
     <div class="mb-3">
       <a href="https://wa.me/+916399047686" class="instagram-link" style="font-size: 12px;">
-        <i class="fab fa-instagram"></i>ðŸ’« ð™„ð™‰ð™Žð™ð˜¼ð™‚ð™ð˜¼ð™ˆ ð™‘ð™€ð™ð™Žð™„ð™Šð™‰ ðŸ’«
+        <i class="fab fa-instagram"></i>ꜱᴀᴠ ᴋɪ ᴍᴀᴀ ᴄʜᴏᴅɴᴇ ʙᴀᴋᴀ 𝗬𝗔𝗠𝗗𝗛𝗨𝗗 𝗛𝗘𝗧𝗥𝗦 𝗞𝗜 𝗠𝗔𝗔 𝗞𝗜 𝗖𝗛𝗨T ⚜️🤦‍♂️«
      </a>
     </div>
   </footer>
